@@ -40,8 +40,8 @@
 </head>
 
 <body>
-    <header class="w-full h-[43.625rem] bg-[#264653]">
-        <div class="container max-w-[75%] w-[90rem] mx-auto">
+    <header class="bg-[#264653]">
+        <div class="container mx-auto">
             <nav>
                 <div class="navbar">
                     <div class="navbar-start">
@@ -77,6 +77,47 @@
                     </div>
                 </div>
             </nav>
+            <!-- hero section carousel -->
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <div class="carouseltop flex w-full">
+                    <div class="left">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h2>Honda CBR 300R</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button>Purchase</button>
+                    </div>
+                    <div class="right">
+                        <img src="images/slider/bike1.png"/>
+                    </div>
+                  </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="images/slider/bike2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="images/slider/bike3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="images/slider/bike4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
         </div>
     </header>
 </body>
